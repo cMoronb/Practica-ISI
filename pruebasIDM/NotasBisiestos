@@ -1,0 +1,4 @@
+El programa Bisisestos.java no tiene ningún error usando nuestro test.
+Lo único que ha sido necesario cambiar ha sido el testAnyoNegativo(),
+debido a el modo en que controlaban el caso de error por una un año negativo.
+Ellos lo hacen mediante la excepción IllegalArgumentException.
