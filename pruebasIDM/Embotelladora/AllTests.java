@@ -11,9 +11,9 @@ import junit.framework.JUnit4TestAdapter;
 
 // This section declares all of the test classes in the program.
 @RunWith (Suite.class)
-@Suite.SuiteClasses ({ EmbotelladoraTest.class })  // Add test classes here.
+@Suite.SuiteClasses ({ MiEmbotelladoraTest.class })  // Add test classes here.
 
-public class AllTestsEmb {
+public class AllTests {
     // Execution begins in main(). This test class executes a
     // test runner that tells the tester if any fail.
     public static void main (String[] args) {
