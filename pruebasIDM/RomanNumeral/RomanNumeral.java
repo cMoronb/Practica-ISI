@@ -48,6 +48,10 @@ public class RomanNumeral {
 		charActual = 'Z';
 		charAnt = 'Z';
 
+		if (s == null){
+			return -1;
+		}
+		
 		s = s.toUpperCase();
 
 		total = 0;

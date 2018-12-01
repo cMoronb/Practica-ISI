@@ -1,0 +1,5 @@
+Primero he copiado mi RomanNumeralTest.java con el nombre de MiRomanNumeralTest.java y he modificado MiRomanNumeralTest para que funcione con su código, es decir, lo que he modificado es poner que espero un -1 cuando llamo a la función convierte.
+
+Después de realizar esto, he compilado MiRomanNumeralTest.java y el AllTests.java.Ha pasado todos excepto el primero debido a que no han observado la posibilidad de que te introduzcan un null como string.
+
+Para que pase todos los test he añadido en su RomanNumeral que cuando te meten un null retorne un -1.
